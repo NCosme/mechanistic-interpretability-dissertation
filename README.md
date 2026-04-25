@@ -1,4 +1,4 @@
-ReadMe -- markdown
+README
 
 # Architectural Constraints on Feature Emergence in Neural Audio Models
 
@@ -30,14 +30,6 @@ This repository is under active development. I am currently refactoring research
 
 ## Example Results
 
-*(Add 2–3 figures here)*
-
-```markdown
-![Feature Entanglement](figures/entanglement.png)
-![Feature Separability](figures/separability.png)
-
-### Use:
-**MIT License**
-
-Takes 30 seconds:
-- GitHub → “Add file” → “Choose license template” → MIT
+![Feature Entanglement](figures/representational_collapse.png)
+![Feature Separability](figures/Gabor_factorization.png)
+![Ablations Don't Degrade Generation Quality](figures/reconstruction_fidelity.png)
