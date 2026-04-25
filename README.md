@@ -6,17 +6,17 @@ This repository contains code and experiments for my dissertation research on wh
 
 ## Overview
 
-Modern audio generation systems can produce convincing outputs, but they often fail to expose stable, controllable representations of basic musical features. This project investigates why: I show that interactions between model architecture and audio data geometry produce representational entanglements that make features like pitch difficult to isolate.
+Modern audio generation systems can produce convincing outputs, but they often fail to expose stable, controllable representations of basic musical features. This project investigates why. I show that interactions between model architecture and audio data geometry produce representational entanglements that make features like pitch difficult to isolate.
 
 The core idea is that controllability is partly an architectural problem. By modifying design choices such as stride ratios, nonlinearities, and latent factorization, we can improve linear feature separability without reducing model performance. This reframes controllability as a design problem rather than a training limitation.
 
 ## Start Here
 
-The core analysis is in: `notebooks/representational_geometry_analysis.ipynb`
+I pushed all code to simple notebooks, which live in: `notebooks/`
 
-This notebook contains the main experiments, visualizations, and findings.
+Each notebook contains the main experiments, visualizations, and findings from a different chapter of my dissertation (organized according to location in the encoder).
 
-Note: Most experiments were developed and run in Google Colab. The notebooks are provided for reference and readability; running them end-to-end may require additional setup (datasets, model weights, environment configuration).
+Note: The notebooks are provided for reference and readability; running them end-to-end may require additional setup (datasets, model weights, environment configuration).
 
 ## Repository Structure
 
